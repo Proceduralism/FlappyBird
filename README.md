@@ -1,6 +1,5 @@
 # FlappyBird
 
---------------시즌1----------------
 scratch
 https://scratch.mit.edu/
 
@@ -25,10 +24,8 @@ https://unity.com
 Unreal Engine
 https://www.unrealengine.com
 
---------------시즌1----------------
-
-엔리얼엔진 - Visual Studio Community
-유니티엔진 - Visual Studio Community
+Visual Studio Community
+https://visualstudio.microsoft.com/downloads/
 
 VSCode
 https://code.visualstudio.com/
@@ -40,7 +37,6 @@ Mu Editor
 https://codewith.mu/en/download
 
 Processing
-
 https://www.shadertoy.com/browse
 
 Anaconda -> miniconda
