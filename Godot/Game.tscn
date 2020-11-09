@@ -1,0 +1,34 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://images/background.png" type="Texture" id=1]
+[ext_resource path="res://script/ScrollingBG.gd" type="Script" id=2]
+
+[sub_resource type="Shader" id=1]
+code = "shader_type canvas_item;
+
+uniform float scroll_speed;
+
+void fragment(){
+	
+	vec2 scrollinguv = UV;
+	scrollinguv.x += TIME * scroll_speed;
+	COLOR = texture(TEXTURE, scrollinguv);
+}"
+
+[sub_resource type="ShaderMaterial" id=2]
+shader = SubResource( 1 )
+shader_param/scroll_speed = null
+
+[node name="Game" type="Node2D"]
+
+[node name="ScrollingBG" type="TextureRect" parent="."]
+material = SubResource( 2 )
+margin_top = 1.12244
+margin_right = 400.0
+margin_bottom = 709.122
+texture = ExtResource( 1 )
+stretch_mode = 2
+script = ExtResource( 2 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
