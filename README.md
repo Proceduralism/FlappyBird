@@ -39,4 +39,7 @@ https://codewith.mu/en/download
 Processing
 https://www.shadertoy.com/browse
 
-Anaconda -> miniconda
+Anaconda -> miniconda 
+https://docs.conda.io/en/latest/miniconda.html
+
+
