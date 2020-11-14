@@ -9,8 +9,6 @@ pygame.init()
 pygame.display.set_caption('Flappy Bird')
 screen = pygame.display.set_mode((400, 708)) # Create screen object
 
-
-
 bg_surface1 = pygame.image.load('images/background.png')
 bg_surface2 = pygame.image.load('images/background.png')
 
